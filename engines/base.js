@@ -43,15 +43,3 @@ eng.youtube = {
 		'Videos' : ["http://www.youtube.com/results?search_query=%query%", apiUrl+"?eng=youtube&timestamp=%time%&q=%query%"]
 	},
 };
-
-
-/*	TWITTER
-	----------------------------------------------------- */
-
-eng.twitter = {
-	pageTitle: "Twitter",
-	logo: "twitter.png",
-	places: {
-		'Search Twitter' : ["http://twitter.com/search?q=%query%", false]
-	}
-};
