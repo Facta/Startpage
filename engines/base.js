@@ -32,6 +32,24 @@ eng.wikipedia = {
 	}
 };
 
+/*	THE PIRATE BAY
+	----------------------------------------------------- */
+	
+eng.piratebay = {
+	pageTitle: "The Pirate Bay",
+	logo: "tpb.png",
+	places: {
+		'All' : ["http://thepiratebay.org/search/%query%",	false],
+		'Audio' : ["http://thepiratebay.org/search/%query%/0/99/100",	false],
+		'Video' : ["http://thepiratebay.org/search/%query%/0/99/200",	false],
+		'Applications' : ["http://thepiratebay.org/search/%query%/0/99/300",	false],
+		'Games' : ["http://thepiratebay.org/search/%query%/0/99/400",	false],
+		//'Porn' : ["http://thepiratebay.org/search/%query%/0/99/500",	false],
+		'Other' : ["http://thepiratebay.org/search/%query%/0/99/600",	false],
+	},
+};
+//
+
 
 /*	YOUTUBE
 	----------------------------------------------------- */
