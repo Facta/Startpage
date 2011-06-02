@@ -8,9 +8,9 @@ eng.google = {
 	pageTitle: "Google",
 	logo: "google.png",
 	places: {
-		'Web'    : ["http://www.google.com/search?q=%query%&hl=en",		apiUrl+"?eng=google&timestamp=%time%&q=%query%"],
-		'Images' : ["http://images.google.com/images?q=%query%&hl=en",	apiUrl+"?eng=google&timestamp=%time%&q=%query%"],
-		'Maps'   : ["http://maps.google.com/maps?q=%query%",			false]
+		'Web'    : ["http://www.google.co.uk/search?q=%query%&hl=en",		apiUrl+"?eng=google&timestamp=%time%&q=%query%"],
+		'Images' : ["http://images.google.co.uk/images?q=%query%&hl=en",	apiUrl+"?eng=google&timestamp=%time%&q=%query%"],
+		'Maps'   : ["http://maps.google.co.uk/maps?q=%query%",			false]
 	}
 };
 
